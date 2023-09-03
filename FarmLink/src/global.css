@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inria-sans: "Inria Sans";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-16xl: 35px;
+  --font-size-mini: 15px;
+
+  /* Colors */
+  --color-beige: #c7e2c2;
+  --color-seagreen: #30714b;
+  --color-mediumseagreen: #3cb46e;
+  --color-gray: #fffefe;
+  --color-lightgoldenrodyellow: #c7eac1;
+
+  /* border radiuses */
+  --br-mini: 15px;
+  --br-xl: 20px;
+  --br-3xs: 10px;
+}

@@ -1,0 +1,90 @@
+.logIn {
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-lightgoldenrodyellow);
+  width: 100%;
+  height: 100vh;
+  font-size: var(--font-size-xl);
+  color: var(--color-seagreen);
+  font-family: var(--font-inria-sans);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginChild {
+  border-radius: var(--br-mini);
+  color: var(--color-seagreen);
+  font-size: var(--font-size-xl);
+  margin: 0 auto;
+  background-color: var(--color-gray);
+  width: 35%;
+  height: 600px;
+  padding: 50px;
+}
+
+.formItems {
+  margin-top: 50px;
+}
+
+.submit {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.loginItem {
+  font-size: var(--font-size-xl);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+.loginItem input {
+  border-radius: var(--br-mini);
+  background-color: #3cb46e33;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.loginItem label {
+  padding-left: 10px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.footer {
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--color-seagreen);
+}
+
+.button {
+  margin: 20px;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4caf50; /* Greenish color */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+  transform: translateY(-2px);
+}
+
+/* Active effect */
+.button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}

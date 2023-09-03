@@ -24,6 +24,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('product.urls')),  # Include your app's URLs here
+    path('api/', include('farm.urls')),  # Replace 'yourapp' with the actual name of your app
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
